@@ -1,5 +1,9 @@
 import json, numpy as np, pandas as pd, joblib, streamlit as st
 
+st.title("AI Price Suggestion Demo")
+st.markdown("**Order Item:** 5 m³ Weight")
+st.markdown("**Order Type:** Service Order")
+
 # ---------- Load ----------
 model    = joblib.load("price_model.joblib")
 enc_dict = joblib.load("encoders.joblib")      # contains categories & encoder
