@@ -12,7 +12,7 @@ st.title("AI Price Suggestion Demo")
 st.markdown("**Order Item:** 5 m³ Weight")
 st.markdown("**Order Type:** Service Order")
 
-entities = sorted(meta["entity"].unique())
+entities = sorted(meta["Entity"].unique())
 entity   = st.selectbox("Entity", entities, index=0)
 
 sps = sorted(meta.loc[meta.entity == entity, "service_point"])
