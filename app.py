@@ -71,10 +71,7 @@ if st.button("Suggest Price"):
 
 # ────────────── FOOTNOTE ──────────────
 st.caption("""
-**How are these numbers calculated?**
-
-* Demand is estimated with an XGBoost model trained on historical orders for each *Entity + Service Point* context.
-* **Suggested Price** corresponds to the maximum of *price × predicted amount* in a fine grid.
-* **Confidence** is 1 – (RMSE / predicted amount). Lower model error ⇒ higher confidence.
-* Revenue range shows ±1.96 × RMSE (≈ 95 % interval) converted to €.
+*Suggested Price* maximises *price × predicted demand* according to an XGBoost model.
+The confidence percentage is derived from the model’s RMSE:  
+lower error ⇒ higher confidence.
 """)
