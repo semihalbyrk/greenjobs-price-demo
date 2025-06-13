@@ -1,4 +1,4 @@
-# app.py – Streamlit MVP (single-output, confidence gating)
+# app.py – Streamlit MVP (always show price + explicit confidence)
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -9,30 +9,29 @@ st.title("AI Price Suggestion Demo")
 st.markdown("**Order Item:** 5 m³ Weight")
 st.markdown("**Order Type:** Service Order")
 
-# ────────────── ASSET LOADER ──────────────
+# ────────────── LOAD ARTEFACTS ──────────────
 @st.cache_resource
 def load_assets():
-    model = joblib.load("price_model.joblib")           # has .input_range_ & .rmse_
-    enc   = joblib.load("encoders.joblib")              # {'entity': [...], 'sp': [...], 'enc': OrdinalEncoder}
+    model = joblib.load("price_model.joblib")        # includes .input_range_ & .rmse_
+    enc   = joblib.load("encoders.joblib")           # {'entity': [...], 'sp': [...], 'enc': OrdinalEncoder}
     meta  = pd.read_json("dropdown_meta.json")
     return model, enc, meta
 
 model, enc, meta = load_assets()
 
-# ────────────── DROPDOWNS ──────────────
+# ────────────── DROPDOWN UI ──────────────
 entities = sorted(meta["Entity"].dropna().unique())
 entity   = st.selectbox("Entity", entities)
 
 sp_opts  = sorted(meta.loc[meta["Entity"] == entity, "Service Point"].dropna())
 sp       = st.selectbox("Service Point", sp_opts)
 
-# ────────────── RESULT PLACEHOLDER ──────────────
-result_box = st.empty()
+result_box = st.empty()      # single output container
 
-# ────────────── BUTTON ──────────────
+# ────────────── PREDICT BUTTON ──────────────
 if st.button("Suggest Price"):
 
-    # map names ➜ encoded ids
+    # Map names → numeric ids (same mapping used during training)
     try:
         ent_id = list(enc["entity"]).index(entity)
         sp_id  = list(enc["sp"]).index(sp)
@@ -40,7 +39,7 @@ if st.button("Suggest Price"):
         result_box.error("Selected Entity / Service Point not present in training data.")
         st.stop()
 
-    # candidate grid
+    # Build candidate grid and predict
     prices = model.input_range_
     X_demo = pd.DataFrame({
         "Unit Price":  prices,
@@ -50,51 +49,39 @@ if st.button("Suggest Price"):
 
     amounts  = model.predict(X_demo)
     revenue  = prices * amounts
-    best_idx = revenue.argmax()
+    best_idx = np.argmax(revenue)
 
     best_price   = float(prices[best_idx])
     best_amount  = float(amounts[best_idx])
     best_revenue = float(revenue[best_idx])
 
-    # confidence & range
+    # Confidence & 95 % revenue range using model RMSE
     rmse = getattr(model, "rmse_", None)
     confidence = low_rev = high_rev = None
     if rmse is not None and best_amount > 0:
-        confidence = max(0.0, 1 - rmse / best_amount)
+        confidence = max(0.0, 1 - rmse / best_amount)            # 0–1 scale
         lo_amt     = max(best_amount - 1.96 * rmse, 0)
         hi_amt     = best_amount + 1.96 * rmse
         low_rev    = best_price * lo_amt
         high_rev   = best_price * hi_amt
 
-    # threshold guard
-    CONF_THRESHOLD = 0.50
+    # ────────────── OUTPUT (single block) ──────────────
     result_box.empty()
-    if confidence is not None and confidence < CONF_THRESHOLD:
-        result_box.warning(
-            f"Insufficient data for a reliable estimate in this context "
-            f"(confidence {confidence:.0%}).\n\n"
-            "Please gather more orders for this Entity + Service Point "
-            "before using the price optimiser."
-        )
-        st.stop()
-
-    # output (single set)
     with result_box:
         st.success(f"💶 **Suggested Price:** €{best_price:.2f}")
         st.info   (f"Predicted revenue at that price: €{best_revenue:.2f}")
         if confidence is not None:
             st.write(f"**Confidence:** {confidence:.0%}")
             st.write(f"Revenue range (95 %): €{low_rev:.2f} – €{high_rev:.2f}")
+        else:
+            st.write("*Confidence unavailable (RMSE not stored).*")
 
 # ────────────── FOOTNOTE ──────────────
 st.caption("""
 **How are these numbers calculated?**
 
-* The model (XGBoost) is trained on historical orders to estimate demand (amount)
-  as a function of price for each *Entity + Service Point* context.
-* **Suggested Price** is the point in a fine price grid that maximises
-  *price × predicted amount*.
-* **Confidence** is derived from the model’s RMSE:
-  a lower error means a higher confidence score.
-* The 95 % revenue range applies ±1.96 × RMSE to the predicted amount and converts it to €.
+* Demand is estimated with an XGBoost model trained on historical orders for each *Entity + Service Point* context.
+* **Suggested Price** corresponds to the maximum of *price × predicted amount* in a fine grid.
+* **Confidence** is 1 – (RMSE / predicted amount). Lower model error ⇒ higher confidence.
+* Revenue range shows ±1.96 × RMSE (≈ 95 % interval) converted to €.
 """)
