@@ -1,0 +1,666 @@
+[
+  {
+    "Entity": "Garden Route Casino",
+    "Service Point": "Garden Route Casino"
+  },
+  {
+    "Entity": "Hartenbos Seefront (Pty) Ltd",
+    "Service Point": "Hartenbos Seefront"
+  },
+  {
+    "Entity": "Pinnacle Point Home Owners Ass.",
+    "Service Point": "Pinnacle Point"
+  },
+  {
+    "Entity": "Jolly Solutions (Pty) Ltd",
+    "Service Point": "72 Grant Avenue"
+  },
+  {
+    "Entity": "Lulakiso Enterprise (Pty) Ltd",
+    "Service Point": "Alberton Lifestyle Centre"
+  },
+  {
+    "Entity": "Anthos Centre",
+    "Service Point": "Anthos"
+  },
+  {
+    "Entity": "Barclay Square Shopping Centre (Pty) Ltd",
+    "Service Point": "Barclay Square"
+  },
+  {
+    "Entity": "Spring Mountain Investments (Pty) Ltd",
+    "Service Point": "Bryanpark Shopping Centre"
+  },
+  {
+    "Entity": "Beast SA (Pty) Ltd",
+    "Service Point": "Canterbury Crossing"
+  },
+  {
+    "Entity": "Clovelly Country Club",
+    "Service Point": "Clovelly Golf"
+  },
+  {
+    "Entity": "Cosmo City Shopping Centre",
+    "Service Point": "Cosmo City Shopping Centre"
+  },
+  {
+    "Entity": "Cradle Boutique Hotel (Pty) Ltd",
+    "Service Point": "Cradle Boutique Hotel"
+  },
+  {
+    "Entity": "Delaire (Pty) Ltd T/A Delaire Graff",
+    "Service Point": "Delaire"
+  },
+  {
+    "Entity": "Dolsid Investments (Pty) Ltd",
+    "Service Point": "Dolsid Allens Nek"
+  },
+  {
+    "Entity": "Dolsid Investments (Pty) Ltd",
+    "Service Point": "Dolsid Garden Centre"
+  },
+  {
+    "Entity": "Dolsid Investments (Pty) Ltd",
+    "Service Point": "Dolsid Heights"
+  },
+  {
+    "Entity": "Durban Country Club",
+    "Service Point": "Durban Country Club"
+  },
+  {
+    "Entity": "Eco Cycle (Pty) Ltd",
+    "Service Point": "Food Lovers Comaro"
+  },
+  {
+    "Entity": "Forest Walk Body Corporate",
+    "Service Point": "Forest Walk"
+  },
+  {
+    "Entity": "Nuvue Investment (Pty) Ltd T/A Fourways",
+    "Service Point": "Fourways Gardens"
+  },
+  {
+    "Entity": "Glenelly Estate (Pty) Ltd",
+    "Service Point": "Glenelly Estate"
+  },
+  {
+    "Entity": "Grand Central Airport (Pty) Ltd",
+    "Service Point": "Grand Central Airport"
+  },
+  {
+    "Entity": "Zandevco (Pty) Ltd",
+    "Service Point": "Jackal Creek"
+  },
+  {
+    "Entity": "Kilokox Precision (Pty) Ltd",
+    "Service Point": "Kilokox"
+  },
+  {
+    "Entity": "Kimiad Opstal (Pty) Ltd",
+    "Service Point": "Kimiad Opstal"
+  },
+  {
+    "Entity": "The Kwa-Zulu Natal Cricket Union",
+    "Service Point": "Kingsmead Cricket Stadium"
+  },
+  {
+    "Entity": "Kuilsriver Golf Club",
+    "Service Point": "Kuilsrivier Golf"
+  },
+  {
+    "Entity": "Centpret Properties (Pty) Ltd",
+    "Service Point": "Louis Pasteur"
+  },
+  {
+    "Entity": "Lynnwood Lane Properties (Pty) Ltd",
+    "Service Point": "Lynnwood Lane"
+  },
+  {
+    "Entity": "Lynnwood Lane Properties (Pty) Ltd",
+    "Service Point": "Lynnwood Lane Food Lovers Market"
+  },
+  {
+    "Entity": "Melkhout Estate HOA",
+    "Service Point": "Melkhout Estate"
+  },
+  {
+    "Entity": "Metropolitan Golf Club",
+    "Service Point": "Metropolitan Golf"
+  },
+  {
+    "Entity": "Molenvliet Estate (Pty) Ltd",
+    "Service Point": "Molenvliet Estate"
+  },
+  {
+    "Entity": "Onze Huisie Restaurant (Pty) Ltd",
+    "Service Point": "Onze Huisie"
+  },
+  {
+    "Entity": "Two Ships Trading 464 (Pty) Ltd",
+    "Service Point": "Pick n Pay Bophelong"
+  },
+  {
+    "Entity": "Ebony Traders t/a Pick n Pay Busy Corner",
+    "Service Point": "Pick n Pay Busy Corner"
+  },
+  {
+    "Entity": "Pick 'n Pay Cosmo City",
+    "Service Point": "Pick n Pay Cosmo City"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Bothasig"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Burgundy"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Century City"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Kenilworth"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Midville"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Uitzight"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Willowbridge"
+  },
+  {
+    "Entity": "Savyon Building (Pty) Ltd",
+    "Service Point": "Silverplace"
+  },
+  {
+    "Entity": "Somerset West Country Club",
+    "Service Point": "Somerset Country Club"
+  },
+  {
+    "Entity": "St Michaels Village Residents Ass.",
+    "Service Point": "St Michaels Village"
+  },
+  {
+    "Entity": "Stellenbosch Golf Club",
+    "Service Point": "Stellenbosch Golf"
+  },
+  {
+    "Entity": "The Bay Hotel (Pty) Ltd",
+    "Service Point": "The Bay Hotel"
+  },
+  {
+    "Entity": "Savyon Building (Pty) Ltd",
+    "Service Point": "The Fields"
+  },
+  {
+    "Entity": "Nicadri Investments T/A The Hill Centre",
+    "Service Point": "The Hill Centre"
+  },
+  {
+    "Entity": "Amitofo Developments (Pty) Ltd",
+    "Service Point": "The Square"
+  },
+  {
+    "Entity": "Andproes (Pty) Ltd",
+    "Service Point": "Theos Place"
+  },
+  {
+    "Entity": "Ace of Hearts Trading 100 (Pty) Ltd",
+    "Service Point": "Tres Jolie Venue"
+  },
+  {
+    "Entity": "Atlantic Forest (Pty) Ltd",
+    "Service Point": "Val de Vine"
+  },
+  {
+    "Entity": "Vivini Body Corporate",
+    "Service Point": "Vivini Estate"
+  },
+  {
+    "Entity": "Weltevreden Retief Residence (Pty) Ltd",
+    "Service Point": "Weltevreden"
+  },
+  {
+    "Entity": "OdorCure",
+    "Service Point": "Wilgers"
+  },
+  {
+    "Entity": "Economic Smart Waste (Pty) Ltd",
+    "Service Point": "Woodmead Retail"
+  },
+  {
+    "Entity": "Belle Haven BC",
+    "Service Point": "Belle Haven"
+  },
+  {
+    "Entity": "Benoni Northern Sports Club",
+    "Service Point": "Benoni Northerns Sports Club"
+  },
+  {
+    "Entity": "Brookfield Body Corporate",
+    "Service Point": "Brookfield Body Corporate"
+  },
+  {
+    "Entity": "The Brookwood Body Corporate",
+    "Service Point": "Brookwood"
+  },
+  {
+    "Entity": "Devils Peak Food & Bev T/A De Oude Cafe",
+    "Service Point": "De Oude Caf\u00e9"
+  },
+  {
+    "Entity": "Delta Crossing Investment (Pty) Ltd",
+    "Service Point": "Delta Central"
+  },
+  {
+    "Entity": "Z & L Gutta Investments CC",
+    "Service Point": "Engen Fairland"
+  },
+  {
+    "Entity": "Fleurenville Aged Care SA (Pty) Ltd",
+    "Service Point": "Fleurenville"
+  },
+  {
+    "Entity": "Menlo Views Body Corporate",
+    "Service Point": "Menlo Views"
+  },
+  {
+    "Entity": "Africa Original Import & Export (Pty)",
+    "Service Point": "Namib Biltong Springs"
+  },
+  {
+    "Entity": "Newmark 81 Body Corporate",
+    "Service Point": "Newmark Estate"
+  },
+  {
+    "Entity": "Snowy Owl Prop 0001 (Pty) Ltd",
+    "Service Point": "Park Corner"
+  },
+  {
+    "Entity": "Luxury Hotel Leasing SA (Pty) Ltd t/a Protea Hotel Midrand",
+    "Service Point": "Protea Hotel"
+  },
+  {
+    "Entity": "Quoin Rock Wines (Pty) Ltd",
+    "Service Point": "Quoin Rock Wine Estate"
+  },
+  {
+    "Entity": "Raslouw Private Hospital",
+    "Service Point": "Raslouw Hospital"
+  },
+  {
+    "Entity": "Seascape Mews",
+    "Service Point": "Seascape Mews"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Shoprite Clara Anna"
+  },
+  {
+    "Entity": "StoneHedge (Just Properties)",
+    "Service Point": "Stonehedge"
+  },
+  {
+    "Entity": "Struben Place Body Corporate",
+    "Service Point": "Struben Place"
+  },
+  {
+    "Entity": "Summervale Lifestyle Estate Owners",
+    "Service Point": "Summervale Lifestyle"
+  },
+  {
+    "Entity": "Presmooi (Pty) Ltd",
+    "Service Point": "The Tannery"
+  },
+  {
+    "Entity": "ProAdmin - Univin",
+    "Service Point": "Univin"
+  },
+  {
+    "Entity": "Virgin Active South Africa (Pty) Ltd",
+    "Service Point": "Virgin Active Constantia"
+  },
+  {
+    "Entity": "K Carrim Commercial Properties (Pty) Ltd",
+    "Service Point": "Atterbury D\u00e9cor"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Checkers De Zwartland Werf"
+  },
+  {
+    "Entity": "Dolsid Investments (Pty) Ltd",
+    "Service Point": "Dolsid Joanaida"
+  },
+  {
+    "Entity": "Gables on Marais Body Corporate",
+    "Service Point": "Gables on Marais"
+  },
+  {
+    "Entity": "Gilliemead (Pty) Ltd",
+    "Service Point": "Gilliemead (Other)"
+  },
+  {
+    "Entity": "Motus Group t/a Magnis Trucks",
+    "Service Point": "Magnis Trucks"
+  },
+  {
+    "Entity": "Africa Original Import & Export (Pty)",
+    "Service Point": "Namib Biltong Wellington"
+  },
+  {
+    "Entity": "Parow Golf Club",
+    "Service Point": "Parow Golf"
+  },
+  {
+    "Entity": "Rijks Cellar (Pty) Ltd",
+    "Service Point": "Rijks Wine Tulbach"
+  },
+  {
+    "Entity": "Seegenot Landgoed HEV",
+    "Service Point": "Seegenot Landgoed"
+  },
+  {
+    "Entity": "Virgin Active South Africa (Pty) Ltd",
+    "Service Point": "Virgin Active Centurion"
+  },
+  {
+    "Entity": "Weltevreden Hills Home Owners Ass.",
+    "Service Point": "Weltevreden Hills"
+  },
+  {
+    "Entity": "Belenois Care Body Corporate t/a Belenois Retirement Village",
+    "Service Point": "Belenois"
+  },
+  {
+    "Entity": "Clean Air Nurseries Agri Global (Pty)",
+    "Service Point": "Clean Air Nursery"
+  },
+  {
+    "Entity": "Curro Holdings Ltd",
+    "Service Point": "Curro Durbanville High"
+  },
+  {
+    "Entity": "Curro Holdings Ltd",
+    "Service Point": "Curro Durbanville Primary"
+  },
+  {
+    "Entity": "Featherbrooke Hills Retirement Village",
+    "Service Point": "Featherbrooke Retirement"
+  },
+  {
+    "Entity": "Total Petroport N14 South",
+    "Service Point": "Petroport N14 South"
+  },
+  {
+    "Entity": "Strand Golf Club",
+    "Service Point": "Strand Golf"
+  },
+  {
+    "Entity": "Thatchfield Retail Properties (Pty) Ltd",
+    "Service Point": "Thatchfield Retail Park"
+  },
+  {
+    "Entity": "Gilliemead (Pty) Ltd",
+    "Service Point": "Create / Big Red Barn"
+  },
+  {
+    "Entity": "Glentana Caravan Park",
+    "Service Point": "Glentana Caravan Park"
+  },
+  {
+    "Entity": "Everest Asset Management (Pty) Ltd",
+    "Service Point": "Groenkloof Chambers"
+  },
+  {
+    "Entity": "Sofocles Sons (Pty) Ltd",
+    "Service Point": "Kings Gate"
+  },
+  {
+    "Entity": "Waverley Plaza Properties (Pty) Ltd",
+    "Service Point": "Rentmeester"
+  },
+  {
+    "Entity": "Curro Holdings Ltd",
+    "Service Point": "Curro Hazeldean"
+  },
+  {
+    "Entity": "Parvest (Pty) Ltd",
+    "Service Point": "Arden Grove"
+  },
+  {
+    "Entity": "Laerskool Garsfontein",
+    "Service Point": "Laerskool Garsfontein"
+  },
+  {
+    "Entity": "Persequor Close Body Corporate",
+    "Service Point": "Persequor Park"
+  },
+  {
+    "Entity": "Petroport N14 Lanceria North (Pty) Ltd",
+    "Service Point": "Petroport N14 North"
+  },
+  {
+    "Entity": "Rand Tetorial College",
+    "Service Point": "Rand Tutorial College"
+  },
+  {
+    "Entity": "Rant en Dal Centre (Pty) Ltd",
+    "Service Point": "Rant en Dal"
+  },
+  {
+    "Entity": "Aquatico Scientific (Pty) Ltd",
+    "Service Point": "Aquatico"
+  },
+  {
+    "Entity": "Pretor Group",
+    "Service Point": "Firwood Corner"
+  },
+  {
+    "Entity": "Twin City Realty (Pty) Ltd",
+    "Service Point": "Urban Quarters"
+  },
+  {
+    "Entity": "Twin City Real Estate (Pty) Ltd",
+    "Service Point": "Urban Quarters 2"
+  },
+  {
+    "Entity": "Die Stigting vir Bejaardes T/A Huis",
+    "Service Point": "Huis Hoeveld"
+  },
+  {
+    "Entity": "Krugersdorp High School",
+    "Service Point": "Krugersdorp High School"
+  },
+  {
+    "Entity": "CVO Skool",
+    "Service Point": "CVO School"
+  },
+  {
+    "Entity": "Lyttelton Primary",
+    "Service Point": "Lyttleton Primary"
+  },
+  {
+    "Entity": "Morgenster 1711 (Pty) Ltd",
+    "Service Point": "Morgenster"
+  },
+  {
+    "Entity": "Hoerskool Roodepoort",
+    "Service Point": "Hoerskool Roodepoort"
+  },
+  {
+    "Entity": "Makarios Home Owners Association",
+    "Service Point": "Makarios H.O.A"
+  },
+  {
+    "Entity": "Monument Primary School",
+    "Service Point": "Monument Primary School"
+  },
+  {
+    "Entity": "Perfect Plants (Pty) Ltd",
+    "Service Point": "Perfect Plants"
+  },
+  {
+    "Entity": "St Dunstan College",
+    "Service Point": "St Dunstans College"
+  },
+  {
+    "Entity": "Curro Holdings Ltd",
+    "Service Point": "Curro Hillcrest High School"
+  },
+  {
+    "Entity": "Curro Holdings Ltd",
+    "Service Point": "Curro Hillcrest Primary"
+  },
+  {
+    "Entity": "Lynnwood Laerskool",
+    "Service Point": "Lynnwood Laerskool"
+  },
+  {
+    "Entity": "Twee Jonge Gezellen",
+    "Service Point": "Twee Jonge Gezellen"
+  },
+  {
+    "Entity": "Irene Primary School",
+    "Service Point": "Irene Primary"
+  },
+  {
+    "Entity": "Moreleta NG Gemeente",
+    "Service Point": "NG Moreletta"
+  },
+  {
+    "Entity": "Everest Asset Management (Pty) Ltd",
+    "Service Point": "German Embassy"
+  },
+  {
+    "Entity": "GNI Real Estate (Pty) Ltd",
+    "Service Point": "Nakene"
+  },
+  {
+    "Entity": "Laerskool Danie Malan",
+    "Service Point": "Laerskool Danie Malan"
+  },
+  {
+    "Entity": "Ambot Properties Investments Westrand",
+    "Service Point": "Rant en Dal"
+  },
+  {
+    "Entity": "Marara Pharmacy (Pty) Ltd",
+    "Service Point": "Marara Pharmacy Technopark"
+  },
+  {
+    "Entity": "MidCity Seder",
+    "Service Point": "Seder"
+  },
+  {
+    "Entity": "Greystone Crossing Properties (Pty) Ltd",
+    "Service Point": "Greystone Crossing"
+  },
+  {
+    "Entity": "Mosbro Investments (Pty) Ltd",
+    "Service Point": "Rant en Dal"
+  },
+  {
+    "Entity": "Olympus Centre (Pty) Ltd",
+    "Service Point": "Olympus Centre"
+  },
+  {
+    "Entity": "Saffron Lifestyle Body Corporate",
+    "Service Point": "Saffron Lifestyle"
+  },
+  {
+    "Entity": "Linton's Corner Properties (Pty) Ltd",
+    "Service Point": "Linton's Corner"
+  },
+  {
+    "Entity": "Bracken Garden Centre (Pty) Ltd",
+    "Service Point": "Bracken Garden Centre"
+  },
+  {
+    "Entity": "Weldhagen Eggs (Pty) Ltd",
+    "Service Point": "Weldhagen Eggs"
+  },
+  {
+    "Entity": "Matabicho (Pty) Ltd",
+    "Service Point": "Matabicho"
+  },
+  {
+    "Entity": "Tin Cup Driving Range",
+    "Service Point": "Tin Cup Driving Range"
+  },
+  {
+    "Entity": "Shoprite Checkers (Pty) Ltd",
+    "Service Point": "Checkers Westlake Lifestyle Centre"
+  },
+  {
+    "Entity": "Curro Holdings Ltd t/a Curro Hillcrest",
+    "Service Point": "Curro Hillcrest High School"
+  },
+  {
+    "Entity": "Curro Holdings Ltd t/a Curro Hillcrest",
+    "Service Point": "Curro Hillcrest Primary"
+  },
+  {
+    "Entity": "24 Johnson Body Corporate",
+    "Service Point": "BlackBrick Bedfordview"
+  },
+  {
+    "Entity": "Lintons Corner Family Store (Pty) Ltd",
+    "Service Point": "Pick n Pay Lintons Corner"
+  },
+  {
+    "Entity": "Cameron Court HOA",
+    "Service Point": "Cameron Court"
+  },
+  {
+    "Entity": "Cape Point Vineyards (Pty) Ltd",
+    "Service Point": "Cape Point Vineyards"
+  },
+  {
+    "Entity": "The Filly Properties",
+    "Service Point": "The Filly Properties"
+  },
+  {
+    "Entity": "Waterkloof Park Body Corporate",
+    "Service Point": "Waterkloof Park Apartments"
+  },
+  {
+    "Entity": "Anerley House (Pty) Ltd",
+    "Service Point": "Anerley House"
+  },
+  {
+    "Entity": "Erinvale Golf Club",
+    "Service Point": "Erinvale Golf Club"
+  },
+  {
+    "Entity": "Constantia Glen Estate (Pty) Ltd",
+    "Service Point": "Constantia Glen Estate"
+  },
+  {
+    "Entity": "Lambton Gardens Centre (Pty) Ltd",
+    "Service Point": "Lambton Gardens"
+  },
+  {
+    "Entity": "Cape Point Wine (Pty) Ltd",
+    "Service Point": "Cape Point Wine"
+  },
+  {
+    "Entity": "Fairvest Limited",
+    "Service Point": "Wonderboom Carvenience Shopping Centre"
+  },
+  {
+    "Entity": "Fairvest Limited",
+    "Service Point": "Pick n Pay Family Mall Eersterust"
+  },
+  {
+    "Entity": NaN,
+    "Service Point": NaN
+  }
+]
