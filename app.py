@@ -67,9 +67,6 @@ if st.button("Suggest Price"):
     st.success(f"💶 **Suggested Price:** €{best_price:.2f}")
     st.info   (f"Predicted revenue at that price: €{best_revenue:.2f}")
 
-    if confidence is not None:
-        st.write(f"**Confidence:** {confidence:.0%}")
-        st.write(f"Revenue range (95 %): €{low_rev:.2f} – €{high_rev:.2f}")
 
 # ───────── Detailed technical footnote ─────────
 st.caption("""
